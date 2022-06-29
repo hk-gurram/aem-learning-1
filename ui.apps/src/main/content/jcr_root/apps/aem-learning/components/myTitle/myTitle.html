@@ -1,0 +1,10 @@
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.myTitle="${properties.myTitle}"
+     class="cmp-title">
+    <h1>${myTitle}</h1>
+    <h2>Style System value : ${currentStyle.type}</h2>
+    <h3>Reading Page properties</h3>
+    <h4>Headline - ${pageProperties.headline}</h4>
+    <h4>Prefix - ${pageProperties.prefix}</h4>
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!myTitle, classAppend='cmp-title'}"></sly>

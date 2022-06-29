@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/aem-learning.iml" filepath="$PROJECT_DIR$/aem-learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/all/aem-learning.all.iml" filepath="$PROJECT_DIR$/all/aem-learning.all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/core/aem-learning.core.iml" filepath="$PROJECT_DIR$/core/aem-learning.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dispatcher/aem-learning.dispatcher.ams.iml" filepath="$PROJECT_DIR$/dispatcher/aem-learning.dispatcher.ams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/it.tests/aem-learning.it.tests.iml" filepath="$PROJECT_DIR$/it.tests/aem-learning.it.tests.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps/aem-learning.ui.apps.iml" filepath="$PROJECT_DIR$/ui.apps/aem-learning.ui.apps.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.apps.structure/aem-learning.ui.apps.structure.iml" filepath="$PROJECT_DIR$/ui.apps.structure/aem-learning.ui.apps.structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.config/aem-learning.ui.config.iml" filepath="$PROJECT_DIR$/ui.config/aem-learning.ui.config.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.content/aem-learning.ui.content.iml" filepath="$PROJECT_DIR$/ui.content/aem-learning.ui.content.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.frontend/aem-learning.ui.frontend.iml" filepath="$PROJECT_DIR$/ui.frontend/aem-learning.ui.frontend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ui.tests/aem-learning.ui.tests.iml" filepath="$PROJECT_DIR$/ui.tests/aem-learning.ui.tests.iml" />
+    </modules>
+  </component>
+</project>

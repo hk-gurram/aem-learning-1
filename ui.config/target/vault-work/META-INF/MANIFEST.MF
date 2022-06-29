@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Learning Sites Project - UI config
+Content-Package-Roots: /apps/aem-learning/osgiconfig
+Implementation-Version: 0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: container
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Content-Package-Id: com.adobe.aem.learning:aem-learning.ui.config:0.0.
+ 1-SNAPSHOT
+Content-Package-Description: UI config package for AEM Learning Sites 
+ Project
+

@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM Learning Sites Project - Repository Structur
+ e Package
+Content-Package-Roots: /apps,/apps/aem-learning,/apps/cq,/apps/dam,/ap
+ ps/msm,/apps/settings,/apps/sling,/apps/wcm
+Implementation-Version: 0.0.1-SNAPSHOT
+Build-Jdk-Spec: 1.8
+Content-Package-Type: application
+Created-By: Apache Jackrabbit FileVault - Package Maven Plugin 1.1.4
+Content-Package-Id: com.adobe.aem.learning:aem-learning.ui.apps.struct
+ ure:0.0.1-SNAPSHOT
+Content-Package-Description: Empty package that defines the structure 
+ of the Adobe Experience Manager repository the Code packages in this 
+ project deploy into.
+         Any roots in the Code packages of this 
+ project should have their parent enumerated in the Filters list below
+ .
+

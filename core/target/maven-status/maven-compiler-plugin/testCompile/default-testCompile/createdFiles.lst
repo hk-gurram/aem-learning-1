@@ -1,0 +1,5 @@
+com\adobe\aem\learning\core\models\HelloWorldModelTest.class
+com\adobe\aem\learning\core\schedulers\SimpleScheduledTaskTest.class
+com\adobe\aem\learning\core\servlets\SimpleServletTest.class
+com\adobe\aem\learning\core\listeners\SimpleResourceListenerTest.class
+com\adobe\aem\learning\core\filters\LoggingFilterTest.class

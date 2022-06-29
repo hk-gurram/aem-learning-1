@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM Learning Sites Project - All</comment>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aem-learning.all</entry>
+<entry key="created">2022-06-29T10:54:03.641Z</entry>
+<entry key="groupId">com.adobe.aem.learning</entry>
+<entry key="version">0.0.1-SNAPSHOT</entry>
+<entry key="packageType">container</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="cloudManagerTarget">all</entry>
+<entry key="group">com.adobe.aem.learning</entry>
+<entry key="description">All content package for AEM Learning Sites Project</entry>
+<entry key="artifactId">aem-learning.all</entry>
+</properties>
