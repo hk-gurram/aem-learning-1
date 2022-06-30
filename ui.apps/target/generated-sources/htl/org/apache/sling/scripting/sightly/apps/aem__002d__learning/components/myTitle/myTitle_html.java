@@ -54,12 +54,12 @@ if (renderContext.getObjectModel().toBoolean(_global_mytitle)) {
     }
     out.write("</h2>\n    <h3>Reading Page properties</h3>\n    <h4>");
     {
-        Object var_2 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_pageproperties, "headline"), "text");
+        String var_2 = ("Headline - " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_pageproperties, "headline"), "text")));
         out.write(renderContext.getObjectModel().toString(var_2));
     }
     out.write("</h4>\n    <h4>");
     {
-        Object var_3 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_pageproperties, "prefix"), "text");
+        String var_3 = ("Prefix - " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_pageproperties, "prefix"), "text")));
         out.write(renderContext.getObjectModel().toString(var_3));
     }
     out.write("</h4>\n");

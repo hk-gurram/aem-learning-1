@@ -85,11 +85,8 @@ buildNumber.properties
 
 # NPM
 node_modules/
-package-lock.json
-yarn.lock
 
 # Webpack
-build/
 dist/
 
 # Frontend Maven Plugin
@@ -97,7 +94,9 @@ node/
 
 # Tests
 coverage/
-reports/
 
-# Others
-dispatcher/src/conf.d/variables/default.vars
+# Frontend Story Book
+storybook-static
+​
+### Misc ###
+**/.DS_Store

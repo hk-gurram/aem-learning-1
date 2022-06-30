@@ -1,3 +1,8 @@
-<h1> Test - ${properties.test}</h1>
+<h1 data-sly-test="${properties.test}"> Test - ${properties.test}</h1>
 <h1> Type - ${properties.type}</h1>
 <h1> ID - ${properties.id}</h1>
+<p>Resource path -${resource.path} </p>
+<p>Resource name - ${resource.name}</p>
+<p>current page path - ${currentPage.path}</p>
+<p>current page name - ${currentPage.name}</p>
+<sly data-sly-include="testA.html" />
