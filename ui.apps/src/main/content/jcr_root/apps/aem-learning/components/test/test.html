@@ -1,8 +1,19 @@
-<h1 data-sly-test="${properties.test}"> Test - ${properties.test}</h1>
-<h1> Type - ${properties.type}</h1>
-<h1> ID - ${properties.id}</h1>
-<p>Resource path -${resource.path} </p>
-<p>Resource name - ${resource.name}</p>
-<p>current page path - ${currentPage.path}</p>
-<p>current page name - ${currentPage.name}</p>
-<sly data-sly-include="testA.html" />
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-test.myTitle="${properties.test}"
+     class="cmp-title">
+
+
+    <h1> Test - ${properties.test}</h1>
+    <h1 data-sly-test="${properties.type}"> Type - ${properties.type}</h1>
+    <h1 data-sly-test="${properties.id}"> ID - ${properties.id}</h1>
+
+
+    <p>Resource path -${resource.path} </p>
+    <p>Resource name - ${resource.name}</p>
+    <p>current page path - ${currentPage.path}</p>
+    <p>current page name - ${currentPage.name}</p>
+    <sly data-sly-include="testA.html" />
+
+
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!myTitle, classAppend='cmp-title'}"></sly>
