@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Multifield"
+          extraClientlibs="[cq.authoring.dialog.all]"
+          sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        name="./mainLabel"
+                        fieldLabel="Label for Multifield component"
+                        required="{Boolean}true" />
+                    <links
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                        composite="{Boolean}true">
+                        <field
+                            jcr:primaryType="nt:unstructured"
+                            sling:resourceType="granite/ui/components/coral/foundation/container"
+                            name="./links">
+                            <layout
+                                jcr:primaryType="nt:unstructured"
+                                sling:resourceType="granite/ui/components/coral/foundation/layouts/fixedcolumns"
+                                method="absolute" />
+                            <items jcr:primaryType="nt:unstructured">
+                                <column
+                                    jcr:primaryType="nt:unstructured"
+                                    sling:resourceType="granite/ui/components/coral/foundation/container">
+                                    <items jcr:primaryType="nt:unstructured">
+                                        <linkLabel
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                                            name="./label"
+                                            fieldLabel="Link label"
+                                            required="{Boolean}true" />
+                                        <linkPath
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                                            name="./linkPath"
+                                            fieldLabel="Link path"
+                                            required="{Boolean}true"
+                                            rootPath="/content" />
+                                        <target
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/select"
+                                            name="./target"
+                                            fieldLabel="Open in">
+                                            <items jcr:primaryType="nt:unstructured">
+                                                <sameTab
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="Same Tab"
+                                                    value="_self"
+                                                    selected="{Boolean}true" />
+                                                <newTab
+                                                    jcr:primaryType="nt:unstructured"
+                                                    text="New Tab"
+                                                    value="_blank" />
+                                            </items>
+                                        </target>
+                                        <externalLink
+                                            jcr:primaryType="nt:unstructured"
+                                            sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                                            name="./external"
+                                            text="External link"
+                                            value="{Boolean}true"
+                                            uncheckedValue="{Boolean}false" />
+                                    </items>
+                                </column>
+                            </items>
+                        </field>
+                    </links>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root>

@@ -40,5 +40,7 @@ Service-Component: OSGI-INF/com.adobe.aem.learning.core.filters.Loggin
  leScheduledTask.xml,OSGI-INF/com.adobe.aem.learning.core.servlets.Sim
  pleServlet.xml
 Sling-Model-Classes: com.adobe.aem.learning.core.models.HelloWorldMode
- l,com.adobe.aem.learning.core.models.MyTitleModel
+ l,com.adobe.aem.learning.core.models.LinkModel,com.adobe.aem.learning
+ .core.models.MultifieldModel,com.adobe.aem.learning.core.models.MyTit
+ leModel
 

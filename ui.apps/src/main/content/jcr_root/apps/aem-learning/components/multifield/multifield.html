@@ -1,0 +1,20 @@
+<sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
+     data-sly-use.model="com.adobe.aem.learning.core.models.MultifieldModel"
+     data-sly-test.mainLabel="${model.mainLabel}" class="cmp-title">
+
+    <h1>${mainLabel}</h1>
+
+    <h2>Example for data-sly-list</h2>
+    <ul data-sly-list.link="${model.links}">
+        <li><a href="${link.linkURL}" target="${link.target}">${link.label}</a> </li>
+    </ul>
+
+
+    <h2>Example for data-sly-repeat</h2>
+    <ul data-sly-repeat="${model.links}">
+        <li><a href="${item.linkURL}" target="${item.target}">${item.label}</a> </li>
+    </ul>
+
+
+</sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!mainLabel, classAppend='cmp-title'}"></sly>

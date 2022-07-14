@@ -343,7 +343,7 @@
                     jcr:primaryType="nt:unstructured"
                     jcr:title="AEM Learning Policy"
                     sling:resourceType="wcm/core/components/policy/policy"
-                    components="[/apps/aem-learning/components/accordion,/apps/aem-learning/components/breadcrumb,/apps/aem-learning/components/carousel,/apps/aem-learning/components/container,/apps/aem-learning/components/contentfragment,/apps/aem-learning/components/contentfragmentlist,/apps/aem-learning/components/experiencefragment,/apps/aem-learning/components/image,/apps/aem-learning/components/tabs,/apps/aem-learning/components/teaser,/apps/aem-learning/components/text,/apps/aem-learning/components/title,/apps/aem-learning/components/myTitle]"
+                    components="[group:AEM Learning Sites Project - Content]"
                     layoutDisabled="false">
                     <jcr:content jcr:primaryType="nt:unstructured"/>
                     <cq:authoring jcr:primaryType="nt:unstructured">
