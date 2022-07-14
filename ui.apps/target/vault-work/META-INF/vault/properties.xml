@@ -5,7 +5,7 @@
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-learning.ui.apps</entry>
 <entry key="acHandling">merge</entry>
-<entry key="created">2022-06-29T15:14:37.096Z</entry>
+<entry key="created">2022-07-14T06:28:34.078Z</entry>
 <entry key="groupId">com.adobe.aem.learning</entry>
 <entry key="dependencies-locations">adobe/cq60:core.wcm.components.content:2.13.0=maven:com.adobe.cq:core.wcm.components.content:2.13.0:zip,adobe/cq60:core.wcm.components.config:2.13.0=maven:com.adobe.cq:core.wcm.components.config:2.13.0:zip</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>

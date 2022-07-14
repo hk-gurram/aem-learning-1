@@ -1,5 +1,11 @@
 # Created by https://www.gitignore.io/api/eclipse,java,maven
 
+### IntelliJ ###
+.idea/
+.idea
+*.iml
+.repo
+
 ### Eclipse ###
 *.pydevproject
 .metadata
@@ -73,11 +79,6 @@ buildNumber.properties
 .vlt
 
 
-### IntelliJ ###
-.idea/
-*.iml
-
-
 ### Node.js ###
 
 # Log files
@@ -85,8 +86,11 @@ buildNumber.properties
 
 # NPM
 node_modules/
+package-lock.json
+yarn.lock
 
 # Webpack
+build/
 dist/
 
 # Frontend Maven Plugin
@@ -95,8 +99,5 @@ node/
 # Tests
 coverage/
 
-# Frontend Story Book
-storybook-static
-​
-### Misc ###
-**/.DS_Store
+.DS_Store
+

@@ -34,29 +34,46 @@ public final class helloworld_html extends RenderUnit {
                                 RenderContext renderContext) {
 // Main Template Body -----------------------------------------------------------------------------
 
-Object _dynamic_properties = bindings.get("properties");
 Object _global_model = null;
-out.write("\r\n<div class=\"cmp-helloworld\" data-cmp-is=\"helloworld\">\r\n    <h2 class=\"cmp-helloworld__title\">Hello World Component</h2>\r\n    ");
+Object _dynamic_properties = bindings.get("properties");
+_global_model = renderContext.call("use", com.adobe.aem.learning.core.models.HelloWorldModel.class.getName(), obj());
+out.write("<div class=\"cmp-helloworld\" data-cmp-is=\"helloworld\">\r\n    <h1 class=\"cmp-helloworld__title\">");
 {
-    Object var_testvariable0 = renderContext.getObjectModel().resolveProperty(_dynamic_properties, "text");
-    if (renderContext.getObjectModel().toBoolean(var_testvariable0)) {
+    Object var_0 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "title"), "text");
+    out.write(renderContext.getObjectModel().toString(var_0));
+}
+out.write("</h1>\r\n    ");
+{
+    Object var_testvariable1 = renderContext.getObjectModel().resolveProperty(_dynamic_properties, "text");
+    if (renderContext.getObjectModel().toBoolean(var_testvariable1)) {
         out.write("<div class=\"cmp-helloworld__item\">\r\n        <p class=\"cmp-helloworld__item-label\">Text property:</p>\r\n        <pre class=\"cmp-helloworld__item-output\" data-cmp-hook-helloworld=\"property\">");
         {
-            Object var_1 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_properties, "text"), "text");
-            out.write(renderContext.getObjectModel().toString(var_1));
+            Object var_2 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_properties, "text"), "text");
+            out.write(renderContext.getObjectModel().toString(var_2));
         }
         out.write("</pre>\r\n    </div>");
     }
 }
 out.write("\r\n    ");
-_global_model = renderContext.call("use", com.adobe.aem.learning.core.models.HelloWorldModel.class.getName(), obj());
 {
-    Object var_testvariable2 = renderContext.getObjectModel().resolveProperty(_global_model, "message");
-    if (renderContext.getObjectModel().toBoolean(var_testvariable2)) {
+    Object var_testvariable3 = renderContext.getObjectModel().resolveProperty(_global_model, "text");
+    if (renderContext.getObjectModel().toBoolean(var_testvariable3)) {
+        out.write("<div class=\"cmp-helloworld__item\">\r\n        <p class=\"cmp-helloworld__item-label\">Sling Model getText() property:</p>\r\n        <pre class=\"cmp-helloworld__item-output\" data-cmp-hook-helloworld=\"property\">");
+        {
+            Object var_4 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "text"), "text");
+            out.write(renderContext.getObjectModel().toString(var_4));
+        }
+        out.write("</pre>\r\n    </div>");
+    }
+}
+out.write("\r\n    ");
+{
+    Object var_testvariable5 = renderContext.getObjectModel().resolveProperty(_global_model, "message");
+    if (renderContext.getObjectModel().toBoolean(var_testvariable5)) {
         out.write("<div class=\"cmp-helloworld__item\">\r\n        <p class=\"cmp-helloworld__item-label\">Model message:</p>\r\n        <pre class=\"cmp-helloworld__item-output\" data-cmp-hook-helloworld=\"model\">");
         {
-            Object var_3 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "message"), "text");
-            out.write(renderContext.getObjectModel().toString(var_3));
+            Object var_6 = renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "message"), "text");
+            out.write(renderContext.getObjectModel().toString(var_6));
         }
         out.write("</pre>\r\n    </div>");
     }

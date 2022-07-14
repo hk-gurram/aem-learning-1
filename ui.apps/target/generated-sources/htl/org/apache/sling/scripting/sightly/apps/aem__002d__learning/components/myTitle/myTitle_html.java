@@ -35,16 +35,17 @@ public final class myTitle_html extends RenderUnit {
 // Main Template Body -----------------------------------------------------------------------------
 
 Object _global_template = null;
-Object _dynamic_properties = bindings.get("properties");
+Object _global_model = null;
 Object _global_mytitle = null;
 Object _dynamic_currentstyle = bindings.get("currentstyle");
 Object _dynamic_pageproperties = bindings.get("pageproperties");
 _global_template = renderContext.call("use", "core/wcm/components/commons/v1/templates.html", obj());
-_global_mytitle = renderContext.getObjectModel().resolveProperty(_dynamic_properties, "myTitle");
+_global_model = renderContext.call("use", com.adobe.aem.learning.core.models.MyTitleModel.class.getName(), obj());
+_global_mytitle = renderContext.getObjectModel().resolveProperty(_global_model, "myTitle");
 if (renderContext.getObjectModel().toBoolean(_global_mytitle)) {
-    out.write("\n    <h1>");
+    out.write("\n    <h1 class=\"cmp-my-title\">");
     {
-        Object var_0 = renderContext.call("xss", _global_mytitle, "text");
+        String var_0 = ("This is Model Title : " + renderContext.getObjectModel().toString(renderContext.call("xss", _global_mytitle, "text")));
         out.write(renderContext.getObjectModel().toString(var_0));
     }
     out.write("</h1>\n    <h2>");
@@ -62,18 +63,54 @@ if (renderContext.getObjectModel().toBoolean(_global_mytitle)) {
         String var_3 = ("Prefix - " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_dynamic_pageproperties, "prefix"), "text")));
         out.write(renderContext.getObjectModel().toString(var_3));
     }
-    out.write("</h4>\n");
+    out.write("</h4>\n\n    ");
+    {
+        Object var_testvariable4 = renderContext.getObjectModel().resolveProperty(_global_model, "linkPath");
+        if (renderContext.getObjectModel().toBoolean(var_testvariable4)) {
+            out.write("<p>");
+            {
+                String var_5 = ("Link Path : " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "linkPath"), "text")));
+                out.write(renderContext.getObjectModel().toString(var_5));
+            }
+            out.write("</p>");
+        }
+    }
+    out.write("\n    ");
+    {
+        Object var_testvariable6 = renderContext.getObjectModel().resolveProperty(_global_model, "external");
+        if (renderContext.getObjectModel().toBoolean(var_testvariable6)) {
+            out.write("<p>");
+            {
+                String var_7 = ("Target : " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "target"), "text")));
+                out.write(renderContext.getObjectModel().toString(var_7));
+            }
+            out.write("</p>");
+        }
+    }
+    out.write("\n    ");
+    {
+        Object var_testvariable8 = renderContext.getObjectModel().resolveProperty(_global_model, "resourceType");
+        if (renderContext.getObjectModel().toBoolean(var_testvariable8)) {
+            out.write("<p>");
+            {
+                String var_9 = ("Resource Type : " + renderContext.getObjectModel().toString(renderContext.call("xss", renderContext.getObjectModel().resolveProperty(_global_model, "resourceType"), "text")));
+                out.write(renderContext.getObjectModel().toString(var_9));
+            }
+            out.write("</p>");
+        }
+    }
+    out.write("\n\n");
 }
 out.write("\n");
 {
-    Object var_templatevar4 = renderContext.getObjectModel().resolveProperty(_global_template, "placeholder");
+    Object var_templatevar10 = renderContext.getObjectModel().resolveProperty(_global_template, "placeholder");
     {
-        boolean var_templateoptions5_field$_isempty = (!renderContext.getObjectModel().toBoolean(_global_mytitle));
+        boolean var_templateoptions11_field$_isempty = (!renderContext.getObjectModel().toBoolean(_global_mytitle));
         {
-            String var_templateoptions5_field$_classappend = "cmp-title";
+            String var_templateoptions11_field$_classappend = "cmp-title";
             {
-                java.util.Map var_templateoptions5 = obj().with("isEmpty", var_templateoptions5_field$_isempty).with("classAppend", var_templateoptions5_field$_classappend);
-                callUnit(out, renderContext, var_templatevar4, var_templateoptions5);
+                java.util.Map var_templateoptions11 = obj().with("isEmpty", var_templateoptions11_field$_isempty).with("classAppend", var_templateoptions11_field$_classappend);
+                callUnit(out, renderContext, var_templatevar10, var_templateoptions11);
             }
         }
     }

@@ -1,6 +1,7 @@
 com\adobe\aem\learning\core\filters\LoggingFilter.class
 com\adobe\aem\learning\core\listeners\package-info.class
 com\adobe\aem\learning\core\listeners\SimpleResourceListener.class
+com\adobe\aem\learning\core\models\MyTitleModel.class
 com\adobe\aem\learning\core\servlets\SimpleServlet.class
 com\adobe\aem\learning\core\models\HelloWorldModel.class
 com\adobe\aem\learning\core\schedulers\SimpleScheduledTask.class
