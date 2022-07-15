@@ -1,3 +1,5 @@
+org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\byline\byline_html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\osgiserviceexample\osgiserviceexample_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\page\customheaderlibs_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\myTitle\myTitle_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\page\customfooterlibs_html.class
