@@ -8,13 +8,12 @@ Bundle-Version: 0.0.1.SNAPSHOT
 Export-Package: com.adobe.aem.learning.core.filters;version="1.0";uses
  :="javax.servlet",com.adobe.aem.learning.core.listeners;version="1.0"
  ;uses:="org.osgi.service.event",com.adobe.aem.learning.core.models;ve
- rsion="1.0";uses:="com.adobe.aem.learning.core.services,javax.annotat
- ion,org.apache.sling.api,org.apache.sling.api.resource,org.apache.sli
- ng.models.annotations,org.apache.sling.models.annotations.injectorspe
- cific",com.adobe.aem.learning.core.schedulers;version="1.0",com.adobe
- .aem.learning.core.services;version="1.0",com.adobe.aem.learning.core
- .servlets;version="1.0";uses:="javax.servlet,org.apache.sling.api,org
- .apache.sling.api.servlets"
+ rsion="1.0";uses:="javax.annotation,org.apache.sling.api,org.apache.s
+ ling.api.resource,org.apache.sling.models.annotations,org.apache.slin
+ g.models.annotations.injectorspecific",com.adobe.aem.learning.core.sc
+ hedulers;version="1.0",com.adobe.aem.learning.core.services;version="
+ 1.0",com.adobe.aem.learning.core.servlets;version="1.0";uses:="javax.
+ servlet,org.apache.sling.api,org.apache.sling.api.servlets"
 Import-Package: javax.annotation;version="0.0.0",com.adobe.aem.learnin
  g.core.filters;version="[1.0,2)",com.adobe.aem.learning.core.listener
  s;version="[1.0,2)",com.adobe.aem.learning.core.schedulers;version="[

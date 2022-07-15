@@ -16,5 +16,6 @@ com\adobe\aem\learning\core\schedulers\SimpleScheduledTask.class
 com\adobe\aem\learning\core\models\package-info.class
 com\adobe\aem\learning\core\schedulers\package-info.class
 com\adobe\aem\learning\core\services\OsgiServiceInterface.class
+com\adobe\aem\learning\core\services\OsgiServiceConfigurations.class
 com\adobe\aem\learning\core\servlets\package-info.class
 com\adobe\aem\learning\core\models\Byline.class
