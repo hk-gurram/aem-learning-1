@@ -2,6 +2,7 @@ com\adobe\aem\learning\core\models\LinkModel.class
 com\adobe\aem\learning\core\models\MultifieldModel.class
 com\adobe\aem\learning\core\models\BylineImpl.class
 com\adobe\aem\learning\core\services\OsgiServiceUserInterface.class
+com\adobe\aem\learning\core\servlets\ContactUsServlet.class
 com\adobe\aem\learning\core\servlets\PathServlet.class
 com\adobe\aem\learning\core\services\OsgiServiceImplmentation.class
 com\adobe\aem\learning\core\listeners\package-info.class

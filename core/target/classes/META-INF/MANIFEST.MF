@@ -51,9 +51,10 @@ Service-Component: OSGI-INF/com.adobe.aem.learning.core.filters.Loggin
  leScheduledTask.xml,OSGI-INF/com.adobe.aem.learning.core.services.Osg
  iServiceImplmentation.xml,OSGI-INF/com.adobe.aem.learning.core.servic
  es.OsgiServiceUserImpl.xml,OSGI-INF/com.adobe.aem.learning.core.servl
- ets.PathServlet.xml,OSGI-INF/com.adobe.aem.learning.core.servlets.Res
- ourceTypeServlet.xml,OSGI-INF/com.adobe.aem.learning.core.servlets.Si
- mpleServlet.xml
+ ets.ContactUsServlet.xml,OSGI-INF/com.adobe.aem.learning.core.servlet
+ s.PathServlet.xml,OSGI-INF/com.adobe.aem.learning.core.servlets.Resou
+ rceTypeServlet.xml,OSGI-INF/com.adobe.aem.learning.core.servlets.Simp
+ leServlet.xml
 Sling-Model-Classes: com.adobe.aem.learning.core.models.BylineImpl,com
  .adobe.aem.learning.core.models.HelloWorldModel,com.adobe.aem.learnin
  g.core.models.LinkModel,com.adobe.aem.learning.core.models.Multifield

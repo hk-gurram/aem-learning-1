@@ -4,7 +4,7 @@
 <comment>AEM Learning Sites Project - All</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-learning.all</entry>
-<entry key="created">2022-07-18T06:11:40.793Z</entry>
+<entry key="created">2022-07-18T08:15:29.135Z</entry>
 <entry key="groupId">com.adobe.aem.learning</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">container</entry>

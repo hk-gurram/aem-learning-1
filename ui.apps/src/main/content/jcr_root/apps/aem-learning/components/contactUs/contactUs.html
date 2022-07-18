@@ -1,0 +1,17 @@
+<h3 data-sly-test="${!properties.headline}">${component.properties.jcr:title}</h3>
+<p>${currentNode.path}</p>
+<div>
+    <h3 data-sly-test.headline="${properties.headline}">${headline}</h3>
+    <p data-sly-test.description="${properties.description}">${description}</p>
+    <form action="${currentNode.path @ extension='html',selectors='contact'}" method="POST">
+        <label for="contact-name">Name: </label>
+        <input id="contact-name" name="contact-name" required type="text"><br>
+        <label for="contact-email">Email:  </label>
+        <input id="contact-email" name="contact-email" required type="text"><br>
+        <label for="contact-subject">Subject:  </label>
+        <input id="contact-subject" name="contact-subject" required type="text"><br>
+        <label for="contact-message">Message:  </label>
+        <input id="contact-message" name="contact-message" required type="text"><br>
+        <button>Submit</button>
+    </form>
+</div>
