@@ -16,13 +16,14 @@
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="granite/ui/components/coral/foundation/container">
                 <items jcr:primaryType="nt:unstructured">
-                    <externalLink
+                    <linkPath
                         jcr:primaryType="nt:unstructured"
-                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
-                        name="./external"
-                        text="External link"
-                        value="{Boolean}true"
-                        uncheckedValue="{Boolean}false" />
+                        sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"
+                        name="./linkPath"
+                        fieldLabel="Link path"
+                        fieldDescription="Provide link path here"
+                        required="{Boolean}true"
+                        rootPath="/content" />
                 </items>
             </column>
         </items>

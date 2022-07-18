@@ -1,11 +1,18 @@
 <sly data-sly-use.template="core/wcm/components/commons/v1/templates.html"
      data-sly-use.model="com.adobe.aem.learning.core.models.OsgiServiceModel"
-     data-sly-test.myTitle="${properties.external}" class="cmp-title">
+     data-sly-test.cmpTitle="${model.linkPath}" class="cmp-title">
 
+    <h1 style="color: brown">Example for OSGI Service and Configurations</h1>
     <h2>Course Name : ${model.courseName}</h2>
     <h2>Course Content : ${model.courseContent}</h2>
     <h2>Course Details : ${model.courseDetails}</h2>
+    </br>
+    </br>
+    <h1 style="color: brown">Example for OSGI Service User and will display all the child pages for the given page path : ${cmpTitle}</h1>
+    <ul data-sly-list="${model.childPages}">
+        <li>${item}</li>
+    </ul>
 
 
 </sly>
-<sly data-sly-call="${template.placeholder @ isEmpty=!myTitle, classAppend='cmp-title'}"></sly>
+<sly data-sly-call="${template.placeholder @ isEmpty=!cmpTitle, classAppend='cmp-title'}"></sly>

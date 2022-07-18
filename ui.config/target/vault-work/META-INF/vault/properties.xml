@@ -4,7 +4,7 @@
 <comment>AEM Learning Sites Project - UI config</comment>
 <entry key="allowIndexDefinitions">false</entry>
 <entry key="name">aem-learning.ui.config</entry>
-<entry key="created">2022-07-15T10:53:41.850Z</entry>
+<entry key="created">2022-07-18T06:11:40.287Z</entry>
 <entry key="groupId">com.adobe.aem.learning</entry>
 <entry key="version">0.0.1-SNAPSHOT</entry>
 <entry key="packageType">container</entry>
