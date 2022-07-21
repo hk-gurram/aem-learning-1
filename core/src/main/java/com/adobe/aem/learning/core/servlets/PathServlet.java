@@ -16,7 +16,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 @Component(service = Servlet.class)
-@SlingServletPaths("/bin/pathServlet")
+@SlingServletPaths({"/bin/pathServlet"})
 @ServiceDescription("Register servlet using path")
 public class PathServlet extends SlingSafeMethodsServlet {
 

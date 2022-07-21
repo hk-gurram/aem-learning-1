@@ -10,6 +10,7 @@ org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\test\test
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\byline\byline_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\myTitle\myTitle_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\xfpage\customfooterlibs_html.class
+org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\text\text_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\xfpage\customheaderlibs_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\test\testA_html.class
 org\apache\sling\scripting\sightly\apps\aem__002d__learning\components\contactUs\error_html.class
