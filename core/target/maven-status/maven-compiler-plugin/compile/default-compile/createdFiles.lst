@@ -8,9 +8,11 @@ com\adobe\aem\learning\core\services\OsgiServiceImplmentation.class
 com\adobe\aem\learning\core\listeners\package-info.class
 com\adobe\aem\learning\core\services\package-info.class
 com\adobe\aem\learning\core\servlets\SimpleServlet.class
+com\adobe\aem\learning\core\servlets\WorkflowStartServlet.class
 com\adobe\aem\learning\core\services\OsgiServiceConfigurations.class
 com\adobe\aem\learning\core\listeners\SimpleResourceListener.class
 com\adobe\aem\learning\core\models\OsgiServiceModel.class
+com\adobe\aem\learning\core\workflow\package-info.class
 com\adobe\aem\learning\core\models\MyTitleModel.class
 com\adobe\aem\learning\core\services\OsgiServiceUserImpl.class
 com\adobe\aem\learning\core\filters\package-info.class
@@ -22,5 +24,6 @@ com\adobe\aem\learning\core\schedulers\SimpleScheduledTask.class
 com\adobe\aem\learning\core\models\package-info.class
 com\adobe\aem\learning\core\schedulers\package-info.class
 com\adobe\aem\learning\core\services\OsgiServiceInterface.class
+com\adobe\aem\learning\core\workflow\CustomWorkflowProcess.class
 com\adobe\aem\learning\core\servlets\package-info.class
 com\adobe\aem\learning\core\models\Byline.class
